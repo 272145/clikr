@@ -364,7 +364,7 @@ void mousePressed() {
 
     boolean hit = false;
 
-    // CAT hitbox
+    // hitbox
     if (targetType == 0) {
 
       if (dist(mouseX, mouseY, x, y) < d/2) {
@@ -372,7 +372,7 @@ void mousePressed() {
       }
     }
 
-    // GHOST hitbox
+    // hitbox
     else {
 
       if (mouseX > x-d/2 &&
@@ -398,7 +398,7 @@ void mousePressed() {
     }
   }
 
-  // ================= PAUSE =================
+
   else if (mode == PAUSE) {
 
     if (overButton(width/2 - 100, 350, 200, 60)) {
@@ -406,7 +406,7 @@ void mousePressed() {
     }
   }
 
-  // ================= OPTIONS =================
+
   else if (mode == OPTIONS) {
 
     // cat
