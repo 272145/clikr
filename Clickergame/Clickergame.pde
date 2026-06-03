@@ -335,7 +335,7 @@ boolean overButton(float x, float y, float w, float h) {
 
 void mousePressed() {
 
-  // ================= INTRO =================
+  
   if (mode == INTRO) {
 
     // start
@@ -352,7 +352,7 @@ void mousePressed() {
     }
   }
 
-  // ================= GAME =================
+  
   else if (mode == GAME) {
 
     // pause button
